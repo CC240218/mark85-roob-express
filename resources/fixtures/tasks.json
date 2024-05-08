@@ -1,0 +1,75 @@
+{
+    "create": {
+        "user": {
+            "name": "Rafael Create user",
+            "email": "create_user@gmail.com",
+            "password": "123456"
+        },
+        "task": {
+            "name": "Create tarefa",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ]
+        }
+    },
+    "createTask": {
+        "user": {
+            "name": "Rafael Pereira /TASK",
+            "email": "create_task@gmail.com",
+            "password": "123456"
+        },
+        "task1": {
+            "name": "Primeira tarefa",
+            "tags": [
+                "tag1",
+                "tag25"
+            ]
+        },
+        "task2": {
+            "name": "Segunda tarefa",
+            "tags": [
+                "Criando",
+                "uma",
+                "task"
+            ]
+        },
+        "task3": {
+            "name": "Terceira tarefa",
+            "tags": [
+                "outras",
+                "task",
+                "hasuhaushuahshuahsu"
+            ]
+        }
+    },
+    "userValidation": {
+        "user": {
+            "name": "Validando o usuário e tasks",
+            "email": "error@validation.com.br",
+            "password": "123456"
+        },
+        "noUser": {
+            "name": "",
+            "email": "",
+            "password": ""
+        },
+        "noNameTask": {
+            "name": "",
+            "tags": []
+        },
+        "taskError": {
+            "name": "Tags acima de 3",
+            "tags": [
+                "tag1",
+                "tag2",
+                "tag3",
+                "TAG 4"
+            ]
+        },
+        "taskNameDuplicate": {
+            "name": "Nome de tarefa duplicado"
+        }
+    }
+}
