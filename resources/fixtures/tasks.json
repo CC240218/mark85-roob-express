@@ -1,7 +1,7 @@
 {
     "create": {
         "user": {
-            "name": "Rafael Create user",
+            "name": "Create user",
             "email": "create_user@gmail.com",
             "password": "123456"
         },
