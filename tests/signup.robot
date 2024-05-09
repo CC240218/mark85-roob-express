@@ -121,7 +121,7 @@ Teste criar usuário via API
 
     ${fixture}    Get fixtures    tasks    create
     Clean user from database    ${fixture}[user][email]
-    POST a user create    ${fixture}[user]-
+    POST a user create    ${fixture}[user]
 
 
 #Template de teste
