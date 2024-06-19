@@ -13,21 +13,17 @@ Não deve cadastrar usuario com email repetido
 
     [Tags]    email_repetido
     
-    # Massa de teste do tipo super variavel
-    ${user}    Create Dictionary
-    ...    name=Rafael Email Repetido /SIGNUP
-    ...    email=email_repetido@nagem.com.br
-    ...    password=123456
-    # -----------
+    ${data}    Get fixtures    tasks    create
+
 
     # database.py
-    Remove user database    ${user}[email]
-    Insert user database    ${user}
+    Remove user database    ${data}[user][email]
+    Insert user database    ${data}[user]
     #------------
 
     # Page Object
     Go to signup page
-    Submit signup form    ${user}
+    Submit signup form    ${data}[user]
     Notice shoud be    Oops! Já existe uma conta com o e-mail informado.
     # -----------
 
