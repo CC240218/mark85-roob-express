@@ -26,7 +26,7 @@ Library     Browser
 
 Start session
     
-    New Browser    browser=${BROWSER}    headless=False
+    New Browser    browser=${BROWSER}    headless=True
     New Page        ${BASE_URL}
 
 
