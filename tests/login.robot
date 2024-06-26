@@ -6,7 +6,7 @@ Library    Browser
 Resource    ../resources/base.resource
 
 Test Setup    Start session
-Test Teardown    Take Screenshot
+Test Teardown    
 
 
 *** Test Cases ***
